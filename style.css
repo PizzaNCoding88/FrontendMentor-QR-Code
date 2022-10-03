@@ -1,73 +1,69 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(184, 172, 172, 0.247);
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(184, 172, 172, 0.247);
 }
 
-.ex-container{
-    width: 1440px;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: hsl(212, 45%, 89%);
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+.ex-container {
+  min-width: 300px;
+  width: 1440px;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.external-container{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 10px;
-    width: 350px;
-    height: 500px;
-    box-shadow: 10px 10px 30px rgba(128, 128, 128, 0.555);
-    
+.external-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  width: 350px;
+  height: 500px;
+  box-shadow: 10px 10px 30px rgba(128, 128, 128, 0.555);
 }
 
-.qrcode-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.qrcode-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.qr-code{
-    width: 90%;
-    margin-top: 20px;
-    border-radius: 10px;
+.qr-code {
+  width: 90%;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 
-.bold-text{
-    margin: 20px 0;
-    padding: 0 45px;
-    font-family: Outfit;
-    font-weight: 700;
-    font-size: 20px;
-    text-align: center;
+.bold-text {
+  margin: 20px 0;
+  padding: 0 45px;
+  font-family: Outfit;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
 }
-.text{
-    padding: 0 35px;
-    font-size: 15px;
-    color: hsl(220, 15%, 55%);
-    font-family: Outfit;
-    font-weight: 400;
-    text-align: center;
+.text {
+  padding: 0 35px;
+  font-size: 16px;
+  color: hsl(220, 15%, 55%);
+  font-family: Outfit;
+  font-weight: 400;
+  text-align: center;
 }
 
-@media screen (max-width: 375px){
-    .ex-container{
-        width: 100%;
-    }
-    .qr-code{
-        border-radius: 50px;
-        display: none;
-    }
+@media (max-width: 375px) {
+  .ex-container {
+    width: 375px;
+  }
 }
